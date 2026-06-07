@@ -405,6 +405,9 @@
   document.body.addEventListener('click', function() {
     document.getElementById('myAudio').play();
   }, { once: true });
+  document.body.addEventListener('touchstart', function() {
+    document.getElementById('myAudio').play();
+  }, { once: true }); 
 </script>
     
 
