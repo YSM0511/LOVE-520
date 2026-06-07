@@ -397,12 +397,16 @@
 </div>
 <script src="index.js"></script>
 </body>
-<!--                           
-<audio controls>
-  <source src="Alan Walker-Faded.mp3" type="audio/ogg">
-  <source src="Alan Walker-Faded.mp3" type="audio/mpeg">
-</audio >
-     -->
+                          
+<audio id="myAudio" autoplay loop>
+  <source src="多幸运遇见你.mp3" type="audio/mpeg">
+</audio>
+<script>
+  document.body.addEventListener('click', function() {
+    document.getElementById('myAudio').play();
+  }, { once: true });
+</script>
+    
 
 
 </HTML>
